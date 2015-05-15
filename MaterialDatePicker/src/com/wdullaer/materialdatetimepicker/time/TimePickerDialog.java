@@ -984,7 +984,7 @@ public class TimePickerDialog extends DialogFragment implements OnValueSelectedL
 
         public Node(int... legalKeys) {
             mLegalKeys = legalKeys;
-            mChildren = new ArrayList<>();
+            mChildren = new ArrayList<Node>();
         }
 
         public void addChild(Node child) {
